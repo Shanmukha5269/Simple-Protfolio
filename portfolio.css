@@ -1,0 +1,43 @@
+html{
+  background-color: #c7e8ff;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+
+  
+}
+#top h1{
+  display: flex;
+  justify-content: center;
+  background-color: #c7e8ff;
+}
+#navbar nav ul{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#navbar nav ul li{
+  list-style: none;
+  margin: 0px 10px;
+}
+
+#navbar nav ul li a{
+  text-decoration: none;
+}
+#navbar nav ul li a:hover{
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px;
+}
+.education a:hover{
+  color: red;
+}
+.contact-details{
+ display: flex;
+ flex-direction: column;
+ 
+}
+.contact-details a{
+  text-decoration: none;
+  margin: 10px 0px;
+}
